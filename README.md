@@ -1,6 +1,7 @@
 # Yelp-Dataset-Classification-using-SVM
 Classification of Yelp Reviews into Stars they can get
 
+
 Approach followed by me:
 1.	Read the dataset and separate the reviews into positive and negative on the basis of stars
 2.	If Stars>3 then 1.0 else 0.0
@@ -8,6 +9,9 @@ Approach followed by me:
 4.	Build the classifier
 5.	Do 5 fold cross validation
 6.	Try some trial and error using pos tagging and rejecting stop words for step 4 and 5
+
+following libraries used:
+NLTK, SCIKIT learn
 
 I also implemented the 5 class classification by using SVM Classifier, the approach was similar 
 Below is the Output
